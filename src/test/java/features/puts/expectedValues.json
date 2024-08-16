@@ -1,11 +1,11 @@
 {
-  "firstname" : "Pepito58",
-  "lastname" : "perez58",
-  "totalprice" : 200,
-  "depositpaid" : true,
-  "bookingdates" : {
-    "checkin" : "2018-01-01",
-    "checkout" : "2019-01-01"
+  firstname: 'Pepito58',
+  lastname: 'perez58',
+  totalprice: 200,
+  depositpaid: true,
+  bookingdates: {
+    checkin: '2018-01-01',
+    checkout: '2019-01-01'
   },
-  "additionalneeds" : "Breakfast"
+  additionalneeds: 'Breakfast'
 }

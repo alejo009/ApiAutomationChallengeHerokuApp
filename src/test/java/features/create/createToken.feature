@@ -19,4 +19,5 @@ Feature:connection
     When method POST
     Then status 200
     * def token = response.token
+    And assert responseTime < 4000
     And match token == "#present", "#string", "#notnull"
