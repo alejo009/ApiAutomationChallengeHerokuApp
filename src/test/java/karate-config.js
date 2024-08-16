@@ -1,21 +1,19 @@
 function fn() {
-    // get system property 'karate.env'
-    let env = Karate.env;
 
-    Karate.configure('logPrettyRequest', true);
-    Karate.configure('logPrettyResponse', true);
+    var env = karate.env; // get system property 'karate.env'
+    karate.log('karate.env system property was:', env);
+    karate.configure('logPrettyRequest', true); karate.configure('logPrettyResponse', true);
     if (!env) {
         env = 'dev';
     }
-    let config = {
-        apiUrl: "https://restful-booker.herokuapp.com/"
+    var config = {
+        apiUrl: 'https://restful-booker.herokuapp.com/'
     }
-    if (env == 'dev') {
+    if (env == 'dev'){
         config.username = 'admin'
         config.password = 'password123'
     }
-    let accessToken = Karate.callSingle('classpath:features/token/createToken.feature', config).accessToken
-    Karate.configure('headers', {Authorization: 'Token ' + accessToken})
+
 
     return config;
 }
