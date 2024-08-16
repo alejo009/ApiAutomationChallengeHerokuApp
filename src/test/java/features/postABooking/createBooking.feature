@@ -2,6 +2,7 @@ Feature: Create a booking
   Background: Consume service
     * url apiUrl
 
+    @Create
     Scenario: Create a booking herokuapp
       Given path 'booking'
       And header Accept = 'application/json'
