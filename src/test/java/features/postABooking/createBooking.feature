@@ -14,7 +14,6 @@ Feature: Create a booking
     And def id = response.bookingid
     And print id
     * def createResponse = response
-
     And match response.bookingid == "#present", "#number", "#notnull"
     And match response.[*].firstname == "#present", "#string", "#notnull"
     And match response.[*].lastname == "#present", "#string", "#notnull"
@@ -23,9 +22,7 @@ Feature: Create a booking
     And match response.[*].[*].checkin == "#present", "#date", "#notnull"
     And match response.[*].[*].checkout == "#present", "#date", "#notnull"
     And match response.[*].additionalneeds == "#present", "#string", "#notnull"
-
     And print 'createResponse: ', response
-
 
   Scenario: Create a booking without header Accept
     Given path 'booking'

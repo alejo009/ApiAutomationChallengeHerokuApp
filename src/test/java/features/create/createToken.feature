@@ -1,6 +1,5 @@
 @ignore
 Feature:connection
-
   Background: consume service
     * url 'https://restful-booker.herokuapp.com/'
 

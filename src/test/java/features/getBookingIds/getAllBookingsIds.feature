@@ -1,5 +1,4 @@
 Feature: get bookings
-
   Background: consume service
     * url apiUrl
 
@@ -9,7 +8,6 @@ Feature: get bookings
     Then status 200
     * print response
     And match $.[*].bookingid == '#number', '#present', '#notnull'
-
 
   Scenario: get all bookings ids with incorrect path
     Given path 'incorrectpath'

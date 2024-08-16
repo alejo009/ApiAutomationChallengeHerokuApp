@@ -1,9 +1,7 @@
 Feature: get a specific booking
-
   Background:
     * url apiUrl
     * def create = call read('classpath:features/postABooking/createBooking.feature@Create')
-
 
   Scenario: get a specific booking for your id
     Given path 'booking', create.id

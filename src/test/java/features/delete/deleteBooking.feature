@@ -3,6 +3,7 @@ Feature: delete
     * url apiUrl
     * def authToken = call read('classpath:features/create/createToken.feature@CreateToken')
     * def create = call read('classpath:features/postABooking/createBooking.feature@Create')
+
   @Delete
   Scenario: delete a booking  that exist within the API
     Given path 'booking/'
@@ -14,7 +15,6 @@ Feature: delete
     And def deletedId = create.createResponse.bookingid
     And print 'item deleted', deletedId
     Then status 201
-
     And print 'response', response
 
 

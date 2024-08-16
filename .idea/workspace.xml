@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92dc2b9d-4b68-4214-a7e7-b0e430cb89e2" name="Changes" comment="add new test create a booking, add tests delete">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/puts/incorrectBodyUpdateBooking.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/puts/expectedPartialUpdateBookingValues.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/puts/expectedPartialUpdateBookingValues.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/puts/updateBooking.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/puts/updateBooking.feature" afterDir="false" />
-    </list>
+    <list default="true" id="92dc2b9d-4b68-4214-a7e7-b0e430cb89e2" name="Changes" comment="finish tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723781695051</updated>
       <workItem from="1723781696082" duration="14467000" />
-      <workItem from="1723818512785" duration="28257000" />
+      <workItem from="1723818512785" duration="28557000" />
     </task>
     <task id="LOCAL-00001" summary="add initials files">
       <option name="closed" value="true" />
@@ -256,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723845864141</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finish tests">
+      <option name="closed" value="true" />
+      <created>1723849516705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723849516706</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +273,8 @@
     <MESSAGE value="finish test getASpecificBooking" />
     <MESSAGE value="finish test update booking" />
     <MESSAGE value="add new test create a booking, add tests delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new test create a booking, add tests delete" />
+    <MESSAGE value="finish tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
