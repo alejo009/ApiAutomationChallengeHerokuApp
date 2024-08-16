@@ -1,0 +1,14 @@
+{
+  bookingid: '#ignore',
+  "booking": {
+    firstname: "Jim",
+    lastname: "Brown",
+    totalprice: 111,
+    depositpaid: true,
+    bookingdates: {
+      checkin: '#ignore',
+      checkout: '#ignore'
+    },
+    additionalneeds: 'Breakfast'
+  }
+}
