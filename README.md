@@ -18,4 +18,4 @@ In this challenge the following endpoints were automated:
 
 7. DeleteBooking
 
-   url of the api used
+#url of the api used
